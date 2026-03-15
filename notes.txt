@@ -30,3 +30,4 @@ Akhilreddy Bokka
 18. to bunch of files we need use git add.
 19. to log commits - git log --oneline
 20 git push - to push local repository to remote repository
+21. git pull to pull remote repository to local directory.
