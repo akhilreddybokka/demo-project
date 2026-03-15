@@ -29,3 +29,4 @@ Akhilreddy Bokka
 17. to restore file in stagging git restore --staged notes.jsx
 18. to bunch of files we need use git add.
 19. to log commits - git log --oneline
+20 git push - to push local repository to remote repository
