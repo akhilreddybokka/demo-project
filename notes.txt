@@ -43,3 +43,6 @@ Branching in Git.
 3. git branch - to list all branches.
 4. switch branches - git switch bug-fix
 5. git switch -c patch -- to create branch and switch to new branch
+6. git diff main new-feature  - to differentiate the changes new branch and main branch.
+7. git merge new-feature -- to merge new branch changes to main branch.
+
