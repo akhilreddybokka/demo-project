@@ -1,0 +1,27 @@
+1. git --version 
+
+	To get version of the git used in system.
+
+2. pwd - print working directory.
+
+3. ls -a : list of all files in working directory.
+
+4. List all global configuration to git.
+	git config --global --list
+5. To set Name & Email 
+	git config --global user.name "Akhilreddy"
+	git config --global user.email "mrakhilreddybokka@gmail.com"
+6. to set default branch main
+	git config --global init.defaultBranch main
+7. to unset user name 
+	git config --global --unset user.name
+8. first go to path of directory in vs code terminal.
+9. initialize the git repository
+	git init
+10. git remote add origin https://github.com/akhilreddybokka/demo-project
+11. git status (to track status of files in local directory to git repository)
+12. git add src/ public/ package.json index.html
+13. git status (no commits yet )
+14. git commit -m "initial commit"
+15. git status 
+16. git clone https://github.com/akhilreddybokka/demo-project.git (to clone each repository)
