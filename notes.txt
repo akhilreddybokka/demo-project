@@ -25,3 +25,6 @@
 14. git commit -m "initial commit"
 15. git status 
 16. git clone https://github.com/akhilreddybokka/demo-project.git (to clone each repository)
+17. to restore file in stagging git restore --staged notes.jsx
+18. to bunch of files we need use git add.
+19. to log commits - git log --oneline
