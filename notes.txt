@@ -45,4 +45,7 @@ Branching in Git.
 5. git switch -c patch -- to create branch and switch to new branch
 6. git diff main new-feature  - to differentiate the changes new branch and main branch.
 7. git merge new-feature -- to merge new branch changes to main branch.
+8. git push --set-upstream origin new-feature - to merge new branch with new additions 
+            to existing branch we use this command. 
+9. 
 
