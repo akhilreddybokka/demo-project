@@ -99,7 +99,18 @@ pull request :
 	his repository so he can review the code before our code merges into his repository and
 	 approve/cancel the request for neccessary changes.
 3. make sure to keep the PR small so they are easy to review and bug free.
-4. once pushed we need to add PR to be added to main branch.
+4. once pushed we need to add PR to be added to main branch from new-feature repository by
+	clicking on merge request by adding title and comments for reviwer and reviewer name.
+	And at the bottom we can check the differences we are commiting for the pull Request.
+5. Once code reviwer reviews the code, the Owner will check the approver / cancel and process
+	the Pull request. If the Pull request successfully approved after rveiewing then owner may delete 
+	the branch we created and there will be only one clean branch.
+
+Code review:
+--------------------
+
+
+
 
 
 
