@@ -43,3 +43,65 @@ Branching in Git.
 3. git branch - to list all branches.
 4. switch branches - git switch bug-fix
 5. git switch -c patch -- to create branch and switch to new branch
+6. git diff main new-feature  - to differentiate the changes new branch and main branch.
+7. git merge new-feature -- to merge new branch changes to main branch.
+8. git push --set-upstream origin new-feature - to merge new branch with new additions 
+            to existing branch we use this command. 
+
+
+To Ignore certain files while adding to github
+------------------------------------------
+
+1. git status --ignored to check files ignored. 
+
+Git Log:
+------------
+
+1. git log   --- to print commit history by user name & email.
+2. git log -n 3 -- latest 3 commits.
+3. git log --oneline   -- commit hash & messages.
+
+
+git Stash
+--------------
+
+1. git stash apply --- to goes to where it was earlier before changes made to original files.
+
+git revert
+-------------
+
+1. for suppouse we have added to stagging, then commited to local repository then pushed to remote
+    repository and we feel it was broken code then to revert from remote repository
+
+git revert Head
+
+gir reset
+--------------
+
+1. git reset --soft <commit> -- keeps our changes in local directory but removes from stages
+2. git reset --mixed <commit> -- keeps our changes in local but removes from committed.
+3. git reset --hard <commit> -- removes from both stages and local directory.
+
+
+for forking others repository:
+------------------
+
+1. first fork the repository to remote repository
+2. create clone with new repository 
+3. push to own repository then track versions from origin repository usinf sync fork.
+
+
+pull request :
+------------------------
+
+1. when requesting a pull request add a meaning description for pull request.
+2. pull request is raised so that we are sending the owner of repository to merge our fixes to 
+	his repository so he can review the code before our code merges into his repository and
+	 approve/cancel the request for neccessary changes.
+3. make sure to keep the PR small so they are easy to review and bug free.
+
+
+
+
+
+
