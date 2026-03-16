@@ -99,6 +99,9 @@ pull request :
 	his repository so he can review the code before our code merges into his repository and
 	 approve/cancel the request for neccessary changes.
 3. make sure to keep the PR small so they are easy to review and bug free.
+4. once pushed we need to add PR to be added to main branch.
+
+
 
 
 
