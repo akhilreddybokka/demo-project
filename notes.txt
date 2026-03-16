@@ -36,4 +36,16 @@ Akhilreddy Bokka
 Branching in Git.
 -------------
 
-1. 
+1. Head is a pointer for current branch.
+2. git branch bug-fix - to create new branch for the copy of current branch we are in , 
+    basically head point branch, but it doesnt switch to that branch after creating,
+     we are still in the earlier branch.
+3. git branch - to list all branches.
+4. switch branches - git switch bug-fix
+5. git switch -c patch -- to create branch and switch to new branch
+6. git diff main new-feature  - to differentiate the changes new branch and main branch.
+7. git merge new-feature -- to merge new branch changes to main branch.
+8. git push --set-upstream origin new-feature - to merge new branch with new additions 
+            to existing branch we use this command. 
+9. 
+
